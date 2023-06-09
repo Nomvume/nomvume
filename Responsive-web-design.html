@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Web Design Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    @media screen and (min-width: 768px) {
+      .content {
+        text-align: left;
+      }
+    }
+    
+    @media screen and (min-width: 1024px) {
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Responsive Web Design Example</h1>
+  </div>
+  
+  <div class="content">
+    <h2>Welcome to my website!</h2>
+    <p>This is an example of a responsive web design. The content in this section will adjust based on the screen size.</p>
+  </div>
+  
+  <div class="footer">
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </div>
+</body>
+</html>
